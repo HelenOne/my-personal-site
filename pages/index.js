@@ -4,9 +4,8 @@ export default function Index() {
   return (
     <div>
       <Scroll />
-      <div className="placeholder"></div>
       <NavMenu />
-      <img src="../assets/myphoto"></img>
+      <img className="myphoto" src="/myphoto.jpg"></img>
     </div>
   );
 }

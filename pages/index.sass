@@ -1,0 +1,50 @@
+body
+  font-family: "roboto", "arial"
+  margin: 0
+  .myphoto
+    border-radius: 50%
+    height: 700px
+    position: fixed
+    bottom: -150px
+    right: -70px
+    z-index: -1
+
+.scroll-container
+  z-index: 1
+  .information-card
+    scroll-snap-points-y: repeat(100vh)
+    scroll-snap-type: y proximity
+    height: 100vh
+    overflow: auto
+    section
+      padding: 1rem
+      height: 100vh
+      scroll-snap-align: start
+      text-align: start
+      position: relative
+      z-index: 1
+      display: flex
+      justify-content: space-between
+      .scroll-part
+        display: inline-flex
+        flex-direction: column
+        justify-content: center
+        margin-left: 50px
+        h1, h2
+          text-align: start
+          font-size: 40px
+          margin-top: 0
+          margin-bottom: 5px
+        p
+          margin-top: 0
+          margin-bottom: 0
+          font-size: 20px
+          color: #707070
+        .primary-text
+          color: #FB6B34
+         
+  
+      .placeholder
+        min-width: 500px
+        height: 100vh
+        background: transparent
