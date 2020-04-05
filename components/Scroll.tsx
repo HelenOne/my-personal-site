@@ -11,6 +11,7 @@ export const Scroll = () => {
             <p>
               <span className="primary-text">Front-end developer</span>
             </p>
+            <img className="myphoto-small" src="/myphoto.jpg"></img>
           </div>
           <div className="placeholder"></div>
         </section>

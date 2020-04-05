@@ -83,3 +83,38 @@ body
           color: black
         a:hover
           color: #FE9C77
+.myphoto-small
+  display: none
+
+@media (max-width: 600px)
+  body
+    .myphoto
+      display: none
+    .myphoto-small
+      display: inline
+      height: 200px
+      border-radius: 50%
+      margin-top: 50px
+    .scroll-container
+      .information-card
+        section
+          margin-right: 50px
+          .placeholder
+            display: none
+    nav
+      position: fixed
+      top: 0
+      right: 5px
+      z-index: 2
+      ul
+        padding-left: 0
+        display: flex
+        li
+          list-style: none
+          margin-left: 5px
+          margin-right: 5px
+          a
+            text-decoration: none
+            color: black
+          a:hover
+            color: #FE9C77
