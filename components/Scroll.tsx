@@ -30,36 +30,57 @@ export const Scroll = () => {
           <div className="scroll-part">
             <h2>Skills</h2>
             <p>
-              <span className="primary-text">JavaScript</span>
-              <br />
-              intermediate/advanced. I know the syntax, features (like the
-              difference between null and undefined), Can work with arrays and
-              their methods, arrow functions, connect external libraries and
-              work with api
-              <br />
-              <span className="primary-text">TypeScript</span> <br /> medium
-              level. Used in some projects for better convenience.
-              <br />
-              <span className="primary-text">React</span> <br /> medium level.
-              Favorite way to develop web applications.
-              <br />
-              <span className="primary-text">HTML</span> <br /> advanced level.
-              No comment here, I started with it.
-              <br />
-              <span className="primary-text">CSS</span>,{" "}
-              <span className="primary-text">SASS</span> <br /> advanced level.
-              I always use either this or that. By the way, I like to use CSS
-              Modules together with React.
-              <br />
-              <span className="primary-text">MobX</span> <br /> basic level.
-              Used it during the FLS Hackathon to work with the external state
-              of the application.
-              <br />
-              <span className="primary-text">git</span> <br /> average level.
-              Always use it for project versioning.
-              <br />
-              <span className="primary-text">parcel</span>
-              <br /> average level. Favorite tool for project bundling.
+              <span className="primary-text">JavaScript </span>
+              <details>
+                <summary>intermediate/advanced level</summary>
+                <p>
+                  I know the syntax, features (like the difference between null
+                  and undefined), Can work with arrays and their methods, arrow
+                  functions, connect external libraries and work with api
+                </p>
+              </details>
+              <span className="primary-text">TypeScript </span>
+              <details>
+                <summary>medium level</summary>
+                <p>Used in some projects for better convenience.</p>
+              </details>
+              <span className="primary-text">React </span>
+              <details>
+                <summary>medium level</summary>
+                <p>Favorite way to develop web applications.</p>
+              </details>
+              <span className="primary-text">HTML </span>
+              <details>
+                <summary>advanced level</summary>
+                <p>No comment here, I started with it.</p>
+              </details>
+              <span className="primary-text">CSS </span>,{" "}
+              <span className="primary-text">SASS </span>
+              <details>
+                <summary>advanced level</summary>
+                <p>
+                  I always use either this or that. By the way, I like to use
+                  CSS Modules together with React..
+                </p>
+              </details>
+              <span className="primary-text">MobX </span>
+              <details>
+                <summary> basic level</summary>
+                <p>
+                  Used it during the FLS Hackathon to work with the external
+                  state of the application.
+                </p>
+              </details>
+              <span className="primary-text">git </span>
+              <details>
+                <summary>average level</summary>
+                <p>Always use it for project versioning.</p>
+              </details>
+              <span className="primary-text">parcel </span>
+              <details>
+                <summary>average level</summary>
+                <p>Always use it for project bundling.</p>
+              </details>
             </p>
           </div>
           <div className="placeholder"></div>
