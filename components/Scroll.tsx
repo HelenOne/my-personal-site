@@ -3,7 +3,7 @@ export const Scroll = () => {
   return (
     <div className="scroll-container">
       <div className="information-card">
-        <section className="welcome-section">
+        <section className="welcome-section" id="welcome-section">
           <div className="scroll-part">
             <h1>
               Hello! <br /> I am Helen
@@ -14,7 +14,7 @@ export const Scroll = () => {
           </div>
           <div className="placeholder"></div>
         </section>
-        <section className="about-section">
+        <section className="about-section" id="about-section">
           <div className="scroll-part">
             <h2>About</h2>
             <p>
@@ -26,7 +26,7 @@ export const Scroll = () => {
           </div>
           <div className="placeholder"></div>
         </section>
-        <section className="skills-section">
+        <section className="skills-section" id="skills-section">
           <div className="scroll-part">
             <h2>Skills</h2>
             <p>
@@ -64,7 +64,7 @@ export const Scroll = () => {
           </div>
           <div className="placeholder"></div>
         </section>
-        <section className="experience-section">
+        <section className="experience-section" id="experience-section">
           <div className="scroll-part">
             <h2>Experience</h2>
             <p>
@@ -75,7 +75,7 @@ export const Scroll = () => {
           </div>
           <div className="placeholder"></div>
         </section>
-        <section className="contact-section">
+        <section className="contact-section" id="contact-section">
           <div className="scroll-part">
             <h2>Contacts</h2>
             <p>
