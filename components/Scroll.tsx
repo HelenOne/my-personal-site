@@ -21,7 +21,7 @@ export const Scroll = () => {
             <p>
               <span className="primary-text">Gromova Elena</span>, 19 y.o. Live
               in Saint-Petersburg Love web-programming, design, visit js-meetups
-              and and many many other things (like ccoking, playing ukulele and
+              and and many many other things (like cooking, playing ukulele and
               catch the moment with my camera)
             </p>
           </div>
@@ -36,19 +36,19 @@ export const Scroll = () => {
                 <summary>intermediate/advanced level</summary>
                 <p>
                   I know the syntax, features (like the difference between null
-                  and undefined), Can work with arrays and their methods, arrow
+                  and undefined), can work with arrays and their methods, arrow
                   functions, connect external libraries and work with api
                 </p>
               </details>
               <span className="primary-text">TypeScript </span>
               <details>
-                <summary>medium level</summary>
+                <summary>middle level</summary>
                 <p>Used in some projects for better convenience.</p>
               </details>
               <span className="primary-text">React </span>
               <details>
-                <summary>medium level</summary>
-                <p>Favorite way to develop web applications.</p>
+                <summary>middle level</summary>
+                <p>Favorite framework</p>
               </details>
               <span className="primary-text">HTML </span>
               <details>
@@ -59,28 +59,25 @@ export const Scroll = () => {
               <span className="primary-text">SASS </span>
               <details>
                 <summary>advanced level</summary>
-                <p>
-                  I always use either this or that. By the way, I like to use
-                  CSS Modules together with React..
-                </p>
+                <p>I always use either this or that</p>
               </details>
               <span className="primary-text">MobX </span>
               <details>
-                <summary> basic level</summary>
+                <summary>middle level</summary>
                 <p>
-                  Used it during the FLS Hackathon to work with the external
-                  state of the application.
+                  Used it during the FLS Hackathon and during JetBrains summer
+                  intership to work with the external state of the application.
                 </p>
               </details>
               <span className="primary-text">git </span>
               <details>
-                <summary>average level</summary>
+                <summary>middle level</summary>
                 <p>Always use it for project versioning.</p>
               </details>
               <span className="primary-text">parcel </span>
               <details>
-                <summary>average level</summary>
-                <p>Always use it for project bundling.</p>
+                <summary>middle level</summary>
+                <p>Prefer use it for project bundling.</p>
               </details>
             </p>
           </div>
@@ -90,6 +87,9 @@ export const Scroll = () => {
           <div className="scroll-part">
             <h2>Experience</h2>
             <p>
+              <span className="primary-text">2020</span> JetBrains summer
+              intership ❤️
+              <br />
               <span className="primary-text">2020</span> HackUniversity
               <br />
               <span className="primary-text">2019</span> FLS Hackathon
